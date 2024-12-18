@@ -28,7 +28,7 @@ public class Ejemplo04 {
         };
         
         int suma;
-        
+        int sumaTotal = 0;
         for (int fila = 0; fila < arreglo1.length; fila++) { // 0<2 // 1<2
             suma = 0;
             for (int col = 0; col < arreglo1[fila].length; col++) { // arreglo1[0].length:3 
@@ -37,11 +37,12 @@ public class Ejemplo04 {
                      // 0 + arreglo1[0][0] // 0 + 10 // 10
                      // 10 + arreglo1[0][1] // 10 + 20 // 30
                      // 30 + arreglo1[0][2] // 30 + 40 // 70
+                sumaTotal = sumaTotal + arreglo1[fila][col];     
             }
             System.out.printf("Suma de valores del arreglo: %d\n", suma);
         }
         
-        // System.out.printf("Suma de valores del arreglo: %d\n", suma);
+        System.out.printf("La suma total es: %d\n", sumaTotal);
     }
     
 }
