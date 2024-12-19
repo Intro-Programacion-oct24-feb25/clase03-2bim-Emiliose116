@@ -32,7 +32,8 @@ public class Ejemplo11 {
         4    6
         30   52
          */
-
+        /*usamos 3 arreglos 2 que se van a sumar y uno que va recibir el \
+        resultado de la suma*/
         int valor1;
         int valor2;
 
