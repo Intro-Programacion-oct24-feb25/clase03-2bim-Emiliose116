@@ -29,10 +29,10 @@ public class Ejemplo05 {
                 valor = arreglo1[fila][col]; 
                 if (valor%2==0){
                     suma = suma + valor;
-                }
+              }
                 
             }
-        }
+       }
         System.out.printf("Suma de valores del arreglo: %d\n", suma);
     }
     

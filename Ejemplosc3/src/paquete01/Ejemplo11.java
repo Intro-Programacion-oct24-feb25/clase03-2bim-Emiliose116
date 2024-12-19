@@ -16,26 +16,26 @@ public class Ejemplo11 {
      */
     public static void main(String[] args) {
         // Creación de arreglo bidimensionales
-        
+
         int[][] arreglo1 = {{1, 2}, {10, 12}};
         /*
         1      2
         10     12
-        */
+         */
         int[][] arreglo2 = {{3, 4}, {20, 40}};
         /*
         3      4
         20     40
-        */
+         */
         int[][] sumaArreglo = new int[2][2]; //
         /*
         4    6
         30   52
-        */
-        
+         */
+
         int valor1;
         int valor2;
-        
+
         for (int fila = 0; fila < arreglo1.length; fila++) {
             for (int col = 0; col < arreglo1[fila].length; col++) {
                 valor1 = arreglo1[fila][col];
@@ -43,7 +43,7 @@ public class Ejemplo11 {
                 sumaArreglo[fila][col] = valor1 + valor2;
             }
         }
-        
+
         for (int fila = 0; fila < sumaArreglo.length; fila++) {
             for (int col = 0; col < sumaArreglo[fila].length; col++) {
                 System.out.printf("%d\t", sumaArreglo[fila][col]);
@@ -51,5 +51,5 @@ public class Ejemplo11 {
             System.out.println("");
         }
     }
-    
+
 }

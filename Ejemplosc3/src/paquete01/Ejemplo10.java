@@ -42,7 +42,7 @@ public class Ejemplo10 {
             }
             System.out.println(); // salto de línea
         }
-        
+    
         
         
         for (int fila = 0; fila < arreglo1.length; fila++) {
